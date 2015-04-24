@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/home/pwalsh2202/webapps/littlebitbeta/bin/stop
+/home/pwalsh2202/webapps/littlebitbeta/bin/start

@@ -1,0 +1,16 @@
+# mkdir -p /home/pwalsh2202/webapps/littlebitbeta/gems/gems/passenger-5.0.4/buildout/ruby/ruby-2.2.1-x86_64-linux
+# cd /home/pwalsh2202/webapps/littlebitbeta/gems/gems/passenger-5.0.4/buildout/ruby/ruby-2.2.1-x86_64-linux
+# /usr/local/bin/ruby2.2 /home/pwalsh2202/webapps/littlebitbeta/gems/gems/passenger-5.0.4/ext/ruby/extconf.rb
+checking for alloca.h... yes
+checking for ruby/version.h... yes
+checking for ruby/io.h... yes
+checking for ruby/thread.h... yes
+checking for ruby_version... no
+checking for rb_thread_io_blocking_region() in ruby/io.h... yes
+checking for rb_thread_call_without_gvl() in ruby/thread.h... yes
+creating Makefile
+# make clean && make
+compiling /home/pwalsh2202/webapps/littlebitbeta/gems/gems/passenger-5.0.4/ext/ruby/passenger_native_support.c
+/home/pwalsh2202/webapps/littlebitbeta/gems/gems/passenger-5.0.4/ext/ruby/passenger_native_support.c: In function ‘f_generic_writev’:
+/home/pwalsh2202/webapps/littlebitbeta/gems/gems/passenger-5.0.4/ext/ruby/passenger_native_support.c:336: warning: cast from pointer to integer of different size
+linking shared-object passenger_native_support.so

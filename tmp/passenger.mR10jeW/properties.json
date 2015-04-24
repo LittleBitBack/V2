@@ -1,0 +1,11 @@
+{
+   "instance_dir" : {
+      "created_at" : 1429855927,
+      "major_version" : 2,
+      "minor_version" : 0
+   },
+   "name" : "8bKMMxGL",
+   "passenger_version" : "5.0.4",
+   "server_software" : "nginx/1.6.2 Phusion_Passenger/5.0.4",
+   "watchdog_pid" : 25424
+}

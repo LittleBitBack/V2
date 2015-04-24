@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ln -sf ~/logs/user/nginx_error_littlebitbeta.log ~/webapps/littlebitbeta/nginx/logs/error.log
+
+PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/pwalsh2202/bin RUBYLIB=/home/pwalsh2202/webapps/littlebitbeta/lib:$RUBYLIB TMPDIR=/home/pwalsh2202/webapps/littlebitbeta/tmp PASSENGER_TMPDIR=/home/pwalsh2202/webapps/littlebitbeta/tmp GEM_HOME=/home/pwalsh2202/webapps/littlebitbeta/gems /home/pwalsh2202/webapps/littlebitbeta/nginx/sbin/nginx -p /home/pwalsh2202/webapps/littlebitbeta/nginx/
